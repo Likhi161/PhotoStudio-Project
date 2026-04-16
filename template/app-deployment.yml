@@ -4,7 +4,7 @@ metadata:
   name: frontend-deploy
   namespace: photo-ns
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       app: frontend
